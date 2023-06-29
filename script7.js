@@ -4,7 +4,7 @@ function krData(god, strana_cod) {
     
     // ajax-запрос на сервер
     const xhr = new XMLHttpRequest();
-    xhr.open('GET', https://calendarific.com/api/v2/holidays?&api_key=c1a82061c12e7903ec638060e4af15d8ce53e8d2&country=${strana_cod}&year=${god});
+    xhr.open("GET", https://calendarific.com/api/v2/holidays?&api_key=90e1d94fce560508c66b99cd5f679adfe9d524b7&country=${strana_cod}&year=${god});
     xhr.onload = function() {
     if (xhr.status === 200) {
     const data = JSON.parse(xhr.responseText);
